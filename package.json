@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/CarsonBanov/react-roster-duel/issues"
   },
-  "homepage": "https://github.com/CarsonBanov/react-roster-duel#readme"
+  "homepage": "https://github.com/CarsonBanov/react-roster-duel#readme",
+  "dependencies": {
+    "express": "=4.13.4",
+    "jade": "=1.11.0",
+    "nodemon": "=1.8.1"
+  }
 }
