@@ -1,5 +1,10 @@
 doctype html
 html
   head
+    block scripts
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+    script(src="player.js")
+    link(href='lineup.css', rel='stylesheet')
   body
     block content
+    include lineup
