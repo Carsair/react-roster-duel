@@ -12,8 +12,13 @@ Player.prototype.render = function(container) {
   template += "</div>";
   if(container){
     $(container).html(template);
+    $(container).css("background-color", "red");
   }
   return template;
 };
 
 var LeftStriker = new Player("Sergio Aguero");
+
+$(document).ready(function(){
+  LeftStriker.render("#player_ls");
+});
