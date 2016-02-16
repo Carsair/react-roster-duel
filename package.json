@@ -1,0 +1,26 @@
+{
+  "name": "react-roster-duel",
+  "version": "1.0.0",
+  "description": "A game like mtg with the cards/creatures being sports players.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarsonBanov/react-roster-duel.git"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "game",
+    "sports"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarsonBanov/react-roster-duel/issues"
+  },
+  "homepage": "https://github.com/CarsonBanov/react-roster-duel#readme"
+}
